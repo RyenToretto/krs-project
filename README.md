@@ -11,9 +11,9 @@ Rust **从零到顶尖精通**的个人学习仓库。前提：你是 **Rust 小
 | 路径 | 阶段 | 内容 | 状态 |
 | --- | --- | --- | --- |
 | `00_rust_basics/` | 阶段 1 | Rust 语法入门 | ✅ 已生成 |
-| `01_ownership_borrowing/` | 阶段 2 | 所有权与借用 | 📝 待生成 |
-| `02_structs_enums/` | 阶段 2 | 结构体与枚举 | 📝 待生成 |
-| `03_error_collections/` | 阶段 2 | 错误处理与集合 | 📝 待生成 |
+| `01_ownership_borrowing/` | 阶段 2 | 所有权与借用 | ✅ 已生成 |
+| `02_structs_enums/` | 阶段 2 | 结构体与枚举 | ✅ 已生成 |
+| `03_error_collections/` | 阶段 2 | 错误处理与集合 | ✅ 已生成 |
 | `04_traits_generics/` | 阶段 3 | Trait 与泛型 | 📝 待生成 |
 | `05_cargo_modules/` | 阶段 3 | Cargo / 模块 / workspace | 📝 待生成 |
 | `06_std_concurrency/` | 阶段 4 | 标准库并发 | 📝 待生成 |
