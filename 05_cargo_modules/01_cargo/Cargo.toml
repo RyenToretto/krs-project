@@ -1,0 +1,10 @@
+[package]
+name = "l00_cargo_features"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = []
+demo_extra = []
+
+[dependencies]
