@@ -1,0 +1,46 @@
+---
+description: krs-project Rust 学习与代码生成规范（小白到顶尖精通）
+alwaysApply: true
+---
+
+# krs_project 学习与代码生成规范
+
+生成或补课前，若任务是「初始化 / 补全某 `NN_xxx` 阶段」，先读取并遵循 skill：
+`.cursor/skills/rust-study-generator/SKILL.md`（含 templates / roadmap / resources）。
+
+## 1. 目录与文件编号（建议从 `00_` 开始，可按课表增补）
+- 学习阶段目录置于仓库根目录，按学习阶段递增：第一阶段为 `00_rust_basics`，之后 `01_`、`02_`…
+- 专题子目录从 `00_` 递增；每课一个可运行 Cargo 包：`NN_slug/TT_topic/` 内含 `Cargo.toml` + `src/main.rs`（包名建议 `l00_topic_name`）。
+- 学习者起点是 **Rust 小白**：必须由浅入深，中文讲解，禁止默认已会 ownership / async / Tokio / Axum / unsafe。
+- **终点**：就业主线后继续精通线，目标为各 Rust 方向**顶尖精通**（见 roadmap），不是「能抄通一个 demo」即停。
+- 目录命名可按推进调整，但不要打乱 README 公布的学习顺序。
+
+## 2. 单个学习课的标准结构
+- **顶部 Doc 注释块**：主题、难度、前置知识、多写法对比、在后端 / 异步 / 系统 / 中间件中的真实用途。
+- **多版本实现**：优先「新手直观版」与「惯用 / 进阶版」；中文逐行注释。
+- **自测 + Bootstrap**：提供 `fn run_tests()`（失败用 `panic!` 或返回 `Result` 后在 main 里 unwrap 并打印清晰信息）与 `fn bootstrap()`；`main` 调用 `bootstrap()`，末尾调用 `run_tests()`。
+- 入门课：单包、无第三方 crate；进阶课引入依赖时写入该课 `Cargo.toml`，并保持离线可测（内存假实现优先）。
+
+## 3. 技术约定
+- Rust **最新稳定版**（建议通过 `rustup` 安装；edition 用当前稳定版推荐，如 2024 或 2021，以本机 `rustc` 为准，入门以好懂为先）。
+- 验证：`./scripts/verify_modules.sh <目录>`（对找到的 `Cargo.toml` 执行 `cargo run --manifest-path`）。
+- 测试保持**离线可跑**；需要 DB/Redis/MQ 时用 trait 假实现，并在 README 注明。
+- 生产框架心智课可用纯 Rust 迷你实现对照 Axum / sqlx / Redis 等，禁止默认读者已会框架。
+
+## 4. 全自动生成批次
+- 一次只做一个 `NN_xxx`；写完更新该阶段 README 与根 README「已生成」表。
+- verify 全绿后**单独 git commit**；全部完成后才 `git push`；禁止 force push。
+- 就业主线：`00_`～`15_`；顶尖精通推荐顺序（Rust 专用）：`16 → 17 → 18 → 19 → 20 → 21`。
+  - 理由：先稳定上线；再深挖 async/Pin；unsafe/FFI 需大量安全代码体感；性能与诊断随后；云原生与架构收官。
+- 若用户要求「先更新 rules/skills 再全量生成」：先提交规范文档，再按阶段生成。
+
+## 5. 文档与外链（硬性）
+- 每个阶段有自己的 `README.md`：进度表 + **知识点资料包**。
+- 根 `README.md` 的「已生成」表、推荐表、阶段路线与 `references/roadmap.md` 一致。
+- **所有外链必须明文完整 URL**（禁止只写 Markdown 超链接文案而无可见完整 URL）。
+- 链接须已 HTTP 核验（见 `references/resources.md`）；禁止未验证假链接、禁止不对口链接。
+- 资料可含 The Book / Rust By Example / Tokio / docs.rs / Manning / No Starch / Amazon 店面页；店面反爬时用可核验的出版社页或 Amazon 搜索页。
+
+## 6. 课密度
+- 每阶段按 roadmap「课表明细」落盘；核心知识点都要有对应可运行课。
+- 精通线（`16_`～`21_`）不得比就业主线更水：要有陷阱、对照生产组件、可测断言。
