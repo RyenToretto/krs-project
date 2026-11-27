@@ -20,9 +20,9 @@ Rust **从零到顶尖精通**的个人学习仓库。前提：你是 **Rust 小
 | `07_async_tokio/` | 阶段 4 | 异步与 Tokio | ✅ 已生成 |
 | `08_web_axum/` | 阶段 5 | Axum Web API | ✅ 已生成 |
 | `09_persistence/` | 阶段 5 | 持久化（sqlx 心智） | ✅ 已生成 |
-| `10_caching_redis/` | 阶段 6 | 缓存与 Redis | 📝 待生成 |
-| `11_messaging/` | 阶段 6 | 消息与异步解耦 | 📝 待生成 |
-| `12_grpc_tonic/` | 阶段 7 | 微服务与 tonic | 📝 待生成 |
+| `10_caching_redis/` | 阶段 6 | 缓存与 Redis | ✅ 已生成 |
+| `11_messaging/` | 阶段 6 | 消息与异步解耦 | ✅ 已生成 |
+| `12_grpc_tonic/` | 阶段 7 | 微服务与 tonic | ✅ 已生成 |
 | `13_testing/` | 穿插 | 测试与基准 | 📝 待生成 |
 | `14_observability/` | 阶段 7 | 可观测性 | 📝 待生成 |
 | `15_project_capstone/` | 毕业 | 综合小项目 | 📝 待生成 |
