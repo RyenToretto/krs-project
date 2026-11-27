@@ -23,9 +23,9 @@ Rust **从零到顶尖精通**的个人学习仓库。前提：你是 **Rust 小
 | `10_caching_redis/` | 阶段 6 | 缓存与 Redis | ✅ 已生成 |
 | `11_messaging/` | 阶段 6 | 消息与异步解耦 | ✅ 已生成 |
 | `12_grpc_tonic/` | 阶段 7 | 微服务与 tonic | ✅ 已生成 |
-| `13_testing/` | 穿插 | 测试与基准 | 📝 待生成 |
-| `14_observability/` | 阶段 7 | 可观测性 | 📝 待生成 |
-| `15_project_capstone/` | 毕业 | 综合小项目 | 📝 待生成 |
+| `13_testing/` | 穿插 | 测试与基准 | ✅ 已生成 |
+| `14_observability/` | 阶段 7 | 可观测性 | ✅ 已生成 |
+| `15_project_capstone/` | 毕业 | 综合小项目 | ✅ 已生成 |
 | `16_production_rust/` | 精通 | 生产级 Rust 工程 | 📝 待生成 |
 | `17_async_advanced/` | 精通 | 异步深挖（Pin/Future） | 📝 待生成 |
 | `18_unsafe_ffi/` | 精通 | Unsafe 与 FFI | 📝 待生成 |

@@ -1,0 +1,6 @@
+[package]
+name = "l00_unit_table_driven"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
