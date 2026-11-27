@@ -1,0 +1,6 @@
+[package]
+name = "l00_strings_and_slices_intro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

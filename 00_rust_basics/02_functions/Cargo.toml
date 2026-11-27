@@ -1,0 +1,6 @@
+[package]
+name = "l00_functions_and_modules_intro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

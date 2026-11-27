@@ -14,20 +14,24 @@
 
 | 编号 | 文件 | 核心点 | 状态 |
 | --- | --- | --- | --- |
-| `00_` | [00_hello/src/main.rs](./00_hello/src/main.rs) | Main、基本类型、自测结构 | ✅ 种子课 |
-| `01_` | 待生成 | 控制流 | 📝 |
-| `02_` | 待生成 | 函数 | 📝 |
-| `03_` | 待生成 | 字符串与切片入门 | 📝 |
+| `00_` | [00_hello/src/main.rs](./00_hello/src/main.rs) | Main、基本类型、自测结构 | ✅ |
+| `01_` | [01_control/src/main.rs](./01_control/src/main.rs) | if / match / for / loop | ✅ |
+| `02_` | [02_functions/src/main.rs](./02_functions/src/main.rs) | 函数、参数、返回值 | ✅ |
+| `03_` | [03_strings/src/main.rs](./03_strings/src/main.rs) | String / &str 入门 | ✅ |
 
 ## 本阶段知识点资料包（明文 URL）
 
 | 知识点 | 视频 / 教程 / 书籍（明文 URL） |
 | --- | --- |
 | 安装 | https://www.rust-lang.org/tools/install |
-| The Book | https://doc.rust-lang.org/book/ ；https://doc.rust-lang.org/stable/book/ |
+| 学习入口 | https://www.rust-lang.org/learn |
+| The Book 总览 | https://doc.rust-lang.org/book/ ；https://doc.rust-lang.org/stable/book/ |
+| 控制流 | https://doc.rust-lang.org/book/ch03-05-control-flow.html ；https://doc.rust-lang.org/rust-by-example/flow_control.html |
+| 函数 | https://doc.rust-lang.org/book/ch03-03-how-functions-work.html ；https://doc.rust-lang.org/rust-by-example/fn.html |
+| 字符串 | https://doc.rust-lang.org/book/ch08-02-strings.html ；https://doc.rust-lang.org/rust-by-example/std/str.html ；https://doc.rust-lang.org/std/string/struct.String.html |
 | Rust By Example | https://doc.rust-lang.org/rust-by-example/ |
 | 练习 | https://rustlings.rust-lang.org/ ；https://github.com/rust-lang/rustlings |
 | 视频 | https://www.youtube.com/@RustVideos |
 | 书 | https://www.amazon.com/Programming-Rust-Fast-Systems-Development/dp/1492052590 ；https://www.manning.com/books/rust-in-action |
 
-**本目录总课数：规划 4（已完成 1，待生成其余）** — 全量内容请用 Cursor 打开本仓库 + `rust-study-generator` 生成。
+**本目录总课数：4（已完成 4）**
