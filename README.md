@@ -30,7 +30,7 @@ Rust **从零到顶尖精通**的个人学习仓库。前提：你是 **Rust 小
 | `17_async_advanced/` | 精通 | 异步深挖（Pin/Future） | ✅ 已生成 |
 | `18_unsafe_ffi/` | 精通 | Unsafe 与 FFI | ✅ 已生成 |
 | `19_perf_memory/` | 精通 | 性能与内存 | ✅ 已生成 |
-| `20_cloud_native/` | 精通 | 云原生 | ✅ |
+| `20_cloud_native/` | 精通 | 云原生 | ✅ 已生成 |
 | `21_architecture/` | 精通 | 架构与 SRE | ✅ 已生成 |
 
 ## 环境
