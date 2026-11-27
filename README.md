@@ -14,9 +14,9 @@ Rust **从零到顶尖精通**的个人学习仓库。前提：你是 **Rust 小
 | `01_ownership_borrowing/` | 阶段 2 | 所有权与借用 | ✅ 已生成 |
 | `02_structs_enums/` | 阶段 2 | 结构体与枚举 | ✅ 已生成 |
 | `03_error_collections/` | 阶段 2 | 错误处理与集合 | ✅ 已生成 |
-| `04_traits_generics/` | 阶段 3 | Trait 与泛型 | 📝 待生成 |
-| `05_cargo_modules/` | 阶段 3 | Cargo / 模块 / workspace | 📝 待生成 |
-| `06_std_concurrency/` | 阶段 4 | 标准库并发 | 📝 待生成 |
+| `04_traits_generics/` | 阶段 3 | Trait 与泛型 | ✅ 已生成 |
+| `05_cargo_modules/` | 阶段 3 | Cargo / 模块 / workspace | ✅ 已生成 |
+| `06_std_concurrency/` | 阶段 4 | 标准库并发 | ✅ 已生成 |
 | `07_async_tokio/` | 阶段 4 | 异步与 Tokio | 📝 待生成 |
 | `08_web_axum/` | 阶段 5 | Axum Web API | 📝 待生成 |
 | `09_persistence/` | 阶段 5 | 持久化（sqlx 心智） | 📝 待生成 |
